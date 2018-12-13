@@ -106,7 +106,7 @@ void HandleTCPClient(TCPSocket *sock) {
 		sock->send(html.c_str(), html.length());
   	delete sock;
 	}
- else{//poner el error 404
+ else{
 			if (errorE.is_open()){
     	while(getline(errorE,linea)){
      	 html = html + linea + "\n";
