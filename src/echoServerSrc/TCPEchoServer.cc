@@ -120,28 +120,7 @@ void HandleTCPClient(TCPSocket *sock) {
 	}
 
 }
-  /*if (archivo1.is_open()){
-    while(getline(archivo,linea)){
-      html = html + linea + "\n";
-    }
-    archivo.close();
-  }else{
-    std::cout << "no se puede abrir" << "\n";
-  }*/
 
-  /*if (archivo2.is_open()){
-    while(getline(archivo,linea)){
-      html = html + linea + "\n";
-    }
-    archivo.close();
-  }else{
-    std::cout << "no se puede abrir" << "\n";
-  }*/
-
-//se envia el HTML//
-  //sock->send(html.c_str(), html.length());
-  //delete sock;
-}
 
 int main(int argc, char *argv[]){
 
